@@ -1,7 +1,11 @@
 {
   "name": "token-security",
-  "version": "0.1.0",
-  "description": "Identity security context for your agent: query identities, non-human identities, AI agents, secrets and security findings from Token Security. Read-only, hosted, OAuth sign-in, nothing to run locally.",
+  "displayName": "Token Security",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Query identities, non-human identities, AI agents, secrets and security findings from Token Security. Read-only, hosted, OAuth sign-in, nothing to run locally.",
   "author": {
     "name": "Token Security",
     "email": "support@token.security"
@@ -9,8 +13,10 @@
   "homepage": "https://mcp.app.token.security/",
   "repository": "https://github.com/token-security/cursor-plugin",
   "license": "MIT",
-  "keywords": ["security", "identity", "iam", "nhi", "secrets", "ai-agents", "mcp"],
   "logo": "assets/logo.svg",
-  "mcpServers": "mcp.json",
-  "skills": "skills/"
+  "keywords": ["security", "identity", "iam", "nhi", "secrets", "ai-agents", "findings", "mcp"],
+  "category": "integrations",
+  "tags": ["security", "identity", "mcp"],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
 }

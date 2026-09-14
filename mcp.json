@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "token-security": {
+      "type": "http",
       "url": "https://mcp.app.token.security/mcp"
     }
   }

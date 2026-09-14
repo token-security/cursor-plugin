@@ -8,17 +8,21 @@ Point any MCP client at `https://mcp.app.token.security/mcp`. One-click buttons 
 
 ### Cursor
 
-Install from the Cursor Marketplace, or add the server to `~/.cursor/mcp.json`:
+1. Open **Cursor Settings → Plugins**.
+2. Search for **Token Security**.
+3. Click **Install**, then sign in when the browser opens.
+
+Or run `/add-plugin token-security` in chat.
+
+Without the plugin, add the server to `~/.cursor/mcp.json` and sign in from **Customize → MCPs → token-security → Authenticate**:
 
 ```json
 {
   "mcpServers": {
-    "token-security": { "url": "https://mcp.app.token.security/mcp" }
+    "token-security": { "type": "http", "url": "https://mcp.app.token.security/mcp" }
   }
 }
 ```
-
-Then open **Customize → MCPs → token-security → Authenticate** and sign in.
 
 ### Claude Code
 
