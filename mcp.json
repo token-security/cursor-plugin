@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "token-security": {
+      "url": "https://mcp.app.token.security/mcp"
+    }
+  }
+}
